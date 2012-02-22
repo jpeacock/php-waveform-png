@@ -21,7 +21,8 @@ The codeigniter version was adapted from [Andrew Freiday](https://github.com/afr
 - Ensure that the 'lame' command is accessible and executable from that directory (for Windows systems, place the downloaded .exe and .dll as linked above into that same directory, or modify the script)
 - Ensure the directory your writing your images and temporary wav files to supports write persmissions, or specify an alternate temporary output directory that does - 
 - Load the library and setup the class within your controller/model:
-<code>
+
+```php
 $this->load->helper('file');
 $this->load->library('waveform_generation');
 
@@ -36,7 +37,7 @@ foreach ($files as $file){
 	$saved_image = $this->waveform_generation->process_track(FCPATH."music/".$file['name'], $save_path, $width, $height, $foreground, $background);
 	// echo $saved_image; // if you want to echo 'true'
 }
-</code>
+```
 
 ### Image generation options
 
