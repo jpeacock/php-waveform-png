@@ -5,8 +5,6 @@ PHP MP3 PNG Waveform Generator / Codeigniter Library
 
 Generates PNG waveform images for a given MP3 file by converting it to WAV and processing amplitude points and plotting them on a GD canvas.
 
-This code was adapted by [Andrew Freiday](http://andrewfreiday.com).
-
 The codeigniter version was adapted from [Andrew Freiday](https://github.com/afreiday/php-waveform-png) for use as a codeigniter library.
 
 ### Requirements
